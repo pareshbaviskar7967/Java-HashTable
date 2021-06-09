@@ -33,5 +33,8 @@ public class HashTable {
 		String string1 = "Paranoids are not paranoid because they are paranoid but because they keep "
 				+ "putting themselves deliberately into paranoid avoidable situations";
 		countWordFreq(hashtable, string1);
+
+		System.out.println("\n \nValue for that word which is removed: " + hashtable.remove("avoidable"));
+		System.out.println(hashtable);
 	}
 }
